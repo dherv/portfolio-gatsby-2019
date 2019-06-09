@@ -1,0 +1,8 @@
+.sectionTitle {
+  text-transform: capitalize;
+  font-family: var(--font-secondary);
+  font-weight: bold;
+  font-size: 32px;
+  margin: 5rem 0;
+  color: #2b2b2b;
+}

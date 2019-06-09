@@ -30,6 +30,16 @@ const Header = () => (
             {data.site.siteMetadata.description}
           </p>
         </div>
+        <nav className={styles.nav}>
+          <ul>
+            <li>
+              <a>Blog</a>
+            </li>
+            <li>
+              <a>Playground</a>
+            </li>
+          </ul>
+        </nav>
       </header>
     )}
   />

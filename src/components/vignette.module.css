@@ -1,0 +1,7 @@
+.vignette {
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.vignette:hover {
+  opacity: 0.8;
+}

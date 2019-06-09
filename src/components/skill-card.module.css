@@ -1,0 +1,23 @@
+.content {
+  /* display: flex; */
+  max-width: 200px;
+  margin-left: 1rem;
+  font-weight: 600;
+}
+
+.level_container {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.level {
+  color: #5cb696;
+  margin-left: 0.5rem;
+}
+.name {
+  color: #5cb696;
+}
+
+.description {
+  font-weight: 100;
+}

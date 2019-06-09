@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Damien Hervieux`,
     subtitle: `Fullstack Developer`,
-    description: `Web developer for a year now. A bit curious about all new technologies. Trying to become a senior as soon as I can (getting a bit old now: 34)`,
+    description: `I started my career in June 2018 and learnt quiet a great deal at my current company. 
+    I currently live in Tokyo with my family. I normally spend my free time with my family, studying code, watching movies.`,
     author: `@dherv`,
   },
   plugins: [
@@ -14,7 +15,14 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
     `gatsby-transformer-remark`,
+    "gatsby-transformer-json",
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
