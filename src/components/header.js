@@ -11,8 +11,6 @@ const Header = () => (
         site {
           siteMetadata {
             title
-            subtitle
-            description
           }
         }
       }
@@ -25,32 +23,20 @@ const Header = () => (
               {data.site.siteMetadata.title}
             </Link>
           </h2>
-          <h5 className={styles.subtitle}>{data.site.siteMetadata.subtitle}</h5>
-          <p className={styles.description}>
-            {data.site.siteMetadata.description}
-          </p>
+          <nav className={styles.nav}>
+            <ul>
+              <li>
+                <a>Blog</a>
+              </li>
+              <li>
+                <a>Playground</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <nav className={styles.nav}>
-          <ul>
-            <li>
-              <a>Blog</a>
-            </li>
-            <li>
-              <a>Playground</a>
-            </li>
-          </ul>
-        </nav>
       </header>
     )}
   />
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header
