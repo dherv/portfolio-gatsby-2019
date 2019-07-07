@@ -1,7 +1,7 @@
 .header {
-  padding: 16px;
+  padding: 1rem 0;
   color: #fff;
-  background-color: #4b636e;
+  background-color: #37474f;
 }
 .link {
   color: inherit;
@@ -10,8 +10,9 @@
 .container {
   display: flex;
   justify-content: space-between;
-  width: 980px;
+  max-width: 980px;
   margin: 0 auto;
+  padding: 0 1.5rem;
 }
 .nav ul li {
   display: inline-block;

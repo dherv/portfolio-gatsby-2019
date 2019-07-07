@@ -1,0 +1,51 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 220px auto;
+}
+.container {
+  max-width: 650px;
+  padding: 0 1.5rem;
+}
+.subtitle {
+  margin-bottom: 1.5rem;
+  font-family: var(--font-secondary);
+  font-size: 48px;
+  font-weight: bold;
+  color: #484848;
+}
+.description {
+  font-weight: 300;
+  font-size: 22px;
+  font-family: var(--text-primary);
+  color: #212121;
+}
+.icon {
+  display: block;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  color: #718792;
+}
+.icon_container {
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem; */
+  /* width: 25%; */
+  /* padding: 0 1.5rem; */
+}
+.icon_xp {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #767676;
+  line-height: 1;
+}
+.icon_xp_point {
+  composes: icon_xp;
+  font-weight: lighter;
+}
+.icon_xp_ym {
+  composes: icon_xp_point;
+  font-size: 12px;
+}

@@ -4,7 +4,7 @@ import styles from "./section.module.css"
 
 export default ({ children, heading }) => (
   <section className={styles.section}>
-    <Heading>{heading}</Heading>
+    {heading ? <Heading>{heading}</Heading> : null}
     {children}
   </section>
 )
