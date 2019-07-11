@@ -13,14 +13,14 @@ import Img from "gatsby-image"
  * - `StaticQuery`: https://gatsby.dev/staticquery
  */
 
-const Image = ({ src }) => (
+const Image = ({ src, imgStyle, style }) => (
   <StaticQuery
     query={graphql`
       query {
         allImageSharp {
           edges {
             node {
-              fluid(maxWidth: 500) {
+              fluid(maxWidth: 350) {
                 ...GatsbyImageSharpFluid
                 originalName
               }
@@ -38,7 +38,15 @@ const Image = ({ src }) => (
         return null
       }
 
-      return <Img fluid={image.node.fluid} />
+      return (
+        <Img
+          imgStyle={imgStyle}
+          style={style}
+          fluid={image.node.fluid}
+          objectFit="contain"
+          objectPosition="50% 50%"
+        />
+      )
     }}
   />
 )
