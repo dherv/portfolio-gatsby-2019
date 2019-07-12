@@ -1,58 +1,70 @@
 [
   {
-    "type": "frontend",
-    "name": "Typescript",
-    "description": "Use in React and any helping functions",
-    "level": "5",
-    "logoPath": "typescript-logo.jpg"
+    "name": "frontend",
+    "icon": "MdCode",
+    "skills": [
+      "Typescript",
+      "React",
+      "Javascript",
+      "Vue",
+      "Angular",
+      "HTML",
+      "CSS",
+      "GatsbyJS",
+      "NextJS"
+    ]
   },
   {
-    "type": "frontend",
-    "name": "Typescript",
-    "description": "Use in React and any helping functions",
-    "level": "5",
-    "logoPath": "typescript-logo.jpg"
+    "name": "test",
+    "icon": "FaFlask",
+    "skills": ["Jest", "Enzyme"]
   },
   {
-    "type": "frontend",
-    "name": "Typescript",
-    "description": "Use in React and any helping functions",
-    "level": "5",
-    "logoPath": "typescript-logo.jpg"
+    "name": "backend",
+    "icon": "MdEqualizer",
+    "skills": [
+      "Django",
+      "NodeJS",
+      "NestJS",
+      "Laravel",
+      "Python",
+      "MySQL",
+      "ElasticSearch",
+      "Redis",
+      "Fastify"
+    ]
   },
   {
-    "type": "frontend",
-    "name": "Typescript",
-    "description": "Use in React and any helping functions",
-    "level": "5",
-    "logoPath": "typescript-logo.jpg"
+    "name": "tools",
+    "icon": "FaWrench",
+    "skills": [
+      "Webpack",
+      "Visual Studio Code",
+      "JetBrains (PyCharm, ...)",
+      "EsLint/TSLint",
+      "Prettier",
+      "Figma",
+      "Trello/Jira",
+      "Github/GitLab",
+      "SourceTree",
+      "Postman"
+    ]
   },
   {
-    "type": "frontend",
-    "name": "Typescript",
-    "description": "Use in React and any helping functions",
-    "level": "5",
-    "logoPath": "typescript-logo.jpg"
+    "name": "devops",
+    "icon": "FaRocket",
+    "skills": [
+      "AWS S3",
+      "AWS Lambda",
+      "AWS EC2",
+      "AWS ElasticBeanStalk",
+      "AWS RDS",
+      "CircleCI"
+    ]
   },
   {
-    "type": "frontend",
-    "name": "Typescript",
-    "description": "Use in React and any helping functions",
-    "level": "5",
-    "logoPath": "typescript-logo.jpg"
-  },
-  {
-    "type": "frontend",
-    "name": "Typescript",
-    "description": "Use in React and any helping functions",
-    "level": "5",
-    "logoPath": "typescript-logo.jpg"
-  },
-  {
-    "type": "frontend",
-    "name": "Typescript",
-    "description": "Use in React and any helping functions",
-    "level": "5",
-    "logoPath": "typescript-logo.jpg"
+    "name": "wanted",
+    "icon": "FaGift",
+    "skills": ["Rust", "Machine Learning", "Kotlin", "Swift", "React Native"]
   }
 ]

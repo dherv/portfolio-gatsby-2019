@@ -18,7 +18,9 @@ const Hero = () => (
     render={data => (
       <section className={styles.wrapper}>
         <div className={styles.container}>
-          <h5 className={styles.subtitle}>{data.site.siteMetadata.subtitle}</h5>
+          <h5 className="global_section_title">
+            {data.site.siteMetadata.subtitle}
+          </h5>
           <p className={styles.description}>
             {data.site.siteMetadata.description}
           </p>

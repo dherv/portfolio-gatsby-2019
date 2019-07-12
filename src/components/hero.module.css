@@ -8,13 +8,7 @@
   max-width: 650px;
   padding: 0 1.5rem;
 }
-.subtitle {
-  margin-bottom: 1.5rem;
-  font-family: var(--font-secondary);
-  font-size: 48px;
-  font-weight: bold;
-  color: #484848;
-}
+
 .description {
   font-weight: 300;
   font-size: 22px;
