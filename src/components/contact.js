@@ -5,20 +5,17 @@ import Submit from "../components/submit"
 
 const Contact = () => {
   return (
-    <Section heading="contact">
-      <form className={styles.form}>
-        <label className={styles.label}>name</label>
-        <input className={styles.input} />
-        <label className={styles.label}>email</label>
-        <input className={styles.input} />
-        <label className={styles.label}>message</label>
-        <textarea className={styles.input} />
-        <div />
-        <div style={{ justifySelf: "flex-end", marginRight: "2rem" }}>
-          <Submit />
-        </div>
-      </form>
-    </Section>
+    <section className={styles.container}>
+      <div className={styles.wrapper}>
+        <h2 className="global_section_title">Contact</h2>
+        <p className={styles.description}>
+          You can drop a line or copy my email address here. They will both
+          arrive a the same place.
+        </p>
+        <textarea rows={8} className={styles.textbox} />
+        <button className={styles.btn_submit}>submit</button>
+      </div>
+    </section>
   )
 }
 
