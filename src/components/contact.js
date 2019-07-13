@@ -5,7 +5,7 @@ import Submit from "../components/submit"
 
 const Contact = () => {
   return (
-    <section className={styles.container}>
+    <section id="contact" className={styles.container}>
       <div className={styles.wrapper}>
         <h2 className="global_section_title">Contact</h2>
         <p className={styles.description}>

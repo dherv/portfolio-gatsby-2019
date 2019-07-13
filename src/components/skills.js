@@ -48,7 +48,7 @@ const Skills = () => {
         }
       `}
       render={data => (
-        <section className={styles.container}>
+        <section id="skills" className={styles.container}>
           <h5 className="global_section_title">Skills</h5>
           <p className={styles.subtitle}>
             At work we mostly use Laravel, Vue, MySQL, AWS, ElasticSearch, with
