@@ -3,27 +3,21 @@
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 8px;
 }
-
 .article_container {
   background-color: #cfd8dc;
   padding: 48px 0;
 }
-
 .article_container_extend {
   grid-column: span 2;
 }
 .article_container_regular {
-  /* padding: 96px 64px 96px 0; */
   padding: 48px 0;
 }
 .article {
   display: block;
 }
-
 .article_wrapper {
-  /* width: calc(2 * (100% / 3)); */
   max-width: 511px;
-  /* padding: 0 2rem; */
 }
 .article_wrapper_right {
   composes: article_wrapper;
@@ -36,14 +30,12 @@
 }
 .article_extend {
   display: flex;
-
   width: 1030px;
   margin: 0 auto;
 }
 .article_regular {
   display: flex;
 }
-
 .project {
   padding: 0 1.5rem;
   line-height: 1.5;
@@ -76,7 +68,7 @@
 }
 
 .project_description_regular {
-  font-size: 22px;
+  font-size: 1.2rem;
   font-weight: 300;
   color: #767676;
   margin-top: 1rem;

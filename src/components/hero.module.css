@@ -1,8 +1,10 @@
 .wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   max-width: 1200px;
-  margin: 220px auto;
+  margin: 0 auto;
+  height: calc(100vh - 56px);
 }
 .container {
   max-width: 650px;
