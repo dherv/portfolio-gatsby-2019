@@ -2,12 +2,20 @@
   --main-background: #fbfafa;
   --text-primary: #484848;
   --text-secondary: #767676;
-  --font-primary: Open-sans, sans-serif;
+  --font-primary: "Open Sans", sans-serif;
   --font-secondary: Roboto, sans-serif;
 }
 
 body {
   font-family: var(--font-primary);
   color: var(--text-primary);
-  padding: 24px;
+  line-height: 1.5;
+}
+
+.global_section_title {
+  margin-bottom: 1.5rem;
+  font-family: var(--font-secondary);
+  font-size: 48px;
+  font-weight: bold;
+  color: #484848;
 }

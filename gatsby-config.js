@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Damien Hervieux`,
     subtitle: `Fullstack Developer`,
-    description: `Web developer for a year now. A bit curious about all new technologies. Trying to become a senior as soon as I can (getting a bit old now: 34)`,
+    description: `I started my career in June 2018 and worked on various full-stack projects since then. 
+    I am currently living in Tokyo with my family. I usually spend my free time with my family, studying code, watching movies or at the jiu-jitsu club. Just below are my home projects I enjoy developing`,
     author: `@dherv`,
   },
   plugins: [
@@ -14,7 +15,22 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        google: {
+          families: ["Open Sans:300,400,600"],
+        },
+      },
+    },
     `gatsby-transformer-remark`,
+    "gatsby-transformer-json",
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

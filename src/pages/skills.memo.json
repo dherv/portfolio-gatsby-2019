@@ -1,0 +1,99 @@
+[
+  {
+    "type": "frontend",
+    "name": "Typescript",
+    "description": "Use in React and any helping functions",
+    "level": "5",
+    "logoPath": "typescript-logo.jpg"
+  },
+  {
+    "type": "frontend",
+    "title": "CSS3",
+    "technologies": "css-modules, styled-components, materializecss"
+  },
+  {
+    "type": "frontend",
+    "title": "Static Site",
+    "technologies": "Gatsby"
+  },
+  {
+    "type": "frontend",
+    "title": "Bundler",
+    "technologies": "Webpack"
+  },
+  {
+    "type": "frontend",
+    "title": "",
+    "technologies": "& VueJS, Vuetify, Mobx, Bootstrap..."
+  },
+  {
+    "type": "backend",
+    "title": "NodeJS",
+    "technologies": "Express & NestJS with Typescript"
+  },
+  {
+    "type": "backend",
+    "title": "PHP",
+    "technologies": "Laravel (build 2 professional projects and one personal and handle a few more)... still dont know php though"
+  },
+  {
+    "type": "backend",
+    "title": "Python",
+    "technologies": "Django (build one professional project and one personal) Cache - Redis"
+  },
+  {
+    "type": "backend",
+    "title": "Cache",
+    "technologies": "Redis"
+  },
+  {
+    "type": "backend",
+    "title": "Search",
+    "technologies": "ElasticSearch"
+  },
+  {
+    "type": "backend",
+    "title": "Websockets",
+    "technologies": ""
+  },
+  {
+    "type": "backend",
+    "title": "Databases",
+    "technologies": "MySQL, MongoDB"
+  },
+  {
+    "type": "devops",
+    "title": "CI",
+    "technologies": "CircleCI"
+  },
+  {
+    "type": "devops",
+    "title": "Docker",
+    "technologies": "docker & docker-compose, docker swarm"
+  },
+  {
+    "type": "devops",
+    "title": "Server",
+    "technologies": "nginx & load-balance"
+  },
+  {
+    "type": "devops",
+    "title": "AWS",
+    "technologies": "ec2, s3, cloudfront, elasticbeanstalk, iam, lambda"
+  },
+  {
+    "type": "test",
+    "title": "Test",
+    "technologies": "Jest,Enzyme"
+  },
+  {
+    "type": "wanted",
+    "title": "Skills",
+    "technologies": "Rust, C, Kotlin or React Native, PWA, Angular, Electron, GraphQL"
+  },
+  {
+    "type": "stack",
+    "title": "Main",
+    "technologies": "NodeJS, Typescript, React, MySQL, Docker, Jest, Redis, ElasticSearch"
+  }
+]

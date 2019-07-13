@@ -13,15 +13,15 @@ import Img from "gatsby-image"
  * - `StaticQuery`: https://gatsby.dev/staticquery
  */
 
-const Image = ({ src, imgStyle, style }) => (
+const Logo = ({ src }) => (
   <StaticQuery
     query={graphql`
       query {
         allImageSharp {
           edges {
             node {
-              fluid(maxWidth: 350) {
-                ...GatsbyImageSharpFluid
+              fixed(width: 64) {
+                ...GatsbyImageSharpFixed
                 originalName
               }
             }
@@ -31,23 +31,15 @@ const Image = ({ src, imgStyle, style }) => (
     `}
     render={data => {
       const image = data.allImageSharp.edges.find(
-        edge => edge.node.fluid.originalName === src
+        edge => edge.node.fixed.originalName === src
       )
-
+      console.log({ image })
       if (!image) {
         return null
       }
 
-      return (
-        <Img
-          imgStyle={imgStyle}
-          style={style}
-          fluid={image.node.fluid}
-          objectFit="contain"
-          objectPosition="50% 50%"
-        />
-      )
+      return <Img fixed={image.node.fixed} />
     }}
   />
 )
-export default Image
+export default Logo

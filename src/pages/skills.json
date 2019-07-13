@@ -1,0 +1,70 @@
+[
+  {
+    "name": "frontend",
+    "icon": "MdCode",
+    "skills": [
+      "Typescript",
+      "React",
+      "Javascript",
+      "Vue",
+      "Angular",
+      "HTML",
+      "CSS",
+      "GatsbyJS",
+      "NextJS"
+    ]
+  },
+  {
+    "name": "test",
+    "icon": "FaFlask",
+    "skills": ["Jest", "Enzyme"]
+  },
+  {
+    "name": "backend",
+    "icon": "MdEqualizer",
+    "skills": [
+      "Django",
+      "NodeJS",
+      "NestJS",
+      "Laravel",
+      "Python",
+      "MySQL",
+      "ElasticSearch",
+      "Redis",
+      "Fastify"
+    ]
+  },
+  {
+    "name": "tools",
+    "icon": "FaWrench",
+    "skills": [
+      "Webpack",
+      "Visual Studio Code",
+      "JetBrains (PyCharm, ...)",
+      "EsLint/TSLint",
+      "Prettier",
+      "Figma",
+      "Trello/Jira",
+      "Github/GitLab",
+      "SourceTree",
+      "Postman"
+    ]
+  },
+  {
+    "name": "devops",
+    "icon": "FaRocket",
+    "skills": [
+      "AWS S3",
+      "AWS Lambda",
+      "AWS EC2",
+      "AWS ElasticBeanStalk",
+      "AWS RDS",
+      "CircleCI"
+    ]
+  },
+  {
+    "name": "wanted",
+    "icon": "FaGift",
+    "skills": ["Rust", "Machine Learning", "Kotlin", "Swift", "React Native"]
+  }
+]
