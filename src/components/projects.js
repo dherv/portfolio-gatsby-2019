@@ -31,7 +31,7 @@ const Projects = () => (
       }
     `}
     render={data => (
-      <Section>
+      <section id="projects">
         <div className={styles.container}>
           {data.allMarkdownRemark.edges.map(
             ({ node }, index) =>
@@ -114,7 +114,7 @@ const Projects = () => (
             // </div>
           )}
         </div>
-      </Section>
+      </section>
     )}
   />
 )

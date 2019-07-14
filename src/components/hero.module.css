@@ -1,12 +1,16 @@
-.wrapper {
+.container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
   height: calc(100vh - 56px);
 }
-.container {
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.text_container {
   max-width: 650px;
   padding: 0 1.5rem;
 }
@@ -19,11 +23,12 @@
 }
 .icon {
   display: block;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   font-size: 2.5rem;
   color: #718792;
 }
 .icon_container {
+  margin-bottom: 2rem;
   /* display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1rem; */

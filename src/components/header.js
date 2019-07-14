@@ -26,10 +26,13 @@ const Header = () => (
           <nav className={styles.nav}>
             <ul>
               <li>
-                <a>Blog</a>
+                <a href="#projects">Projects</a>
               </li>
               <li>
-                <a>Playground</a>
+                <a href="#skills">Skills</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </nav>
