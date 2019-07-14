@@ -2,8 +2,9 @@ module.exports = {
   siteMetadata: {
     title: `Damien Hervieux`,
     subtitle: `Fullstack Developer`,
-    description: `I started my career in June 2018 and worked on various full-stack projects since then. 
-    I am currently living in Tokyo with my family. I usually spend my free time with my family, studying code, watching movies or at the jiu-jitsu club. Just below are my home projects I enjoy developing`,
+    description: `I started my career in June 2018 and worked on various projects since then. I am currently living in Tokyo with my family with whom I usually spend my free time. 
+    I also enjoy studying programming, watching movies and practicing jiujitsu.
+    Just below are the side projects I enjoy developing at home`,
     author: `@dherv`,
   },
   plugins: [
