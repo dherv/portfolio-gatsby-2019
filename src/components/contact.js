@@ -31,6 +31,7 @@ const Contact = () => {
           type="email"
           placeholder="Your email"
           required
+          name="_replyto"
         />
         <textarea
           rows={8}
