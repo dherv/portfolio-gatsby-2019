@@ -18,7 +18,7 @@
   /* grid-auto-rows: minmax(min-content, max-content); */
   flex-direction: column;
   flex-wrap: wrap;
-  max-height: 900px;
+  max-height: 1000px;
   margin-top: 4rem;
   font-weight: 300;
   font-size: 1rem;
