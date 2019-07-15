@@ -42,7 +42,7 @@ const Hero = () => (
               {data.site.siteMetadata.description}
             </p>
           </div>
-          <ul className={styles.icon_container}>
+          <ul className={styles.icon_list}>
             <li className={styles.icon_container}>
               <a href="https://github.com/dherv" target="blank">
                 <FaGithub className={styles.icon} />
