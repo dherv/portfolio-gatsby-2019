@@ -30,6 +30,14 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "portfolio-gatsby-dherv",
+        protocol: "https",
+        hostname: "www.dherv.com",
+      },
+    },
     `gatsby-transformer-remark`,
     "gatsby-transformer-json",
     `gatsby-transformer-sharp`,
