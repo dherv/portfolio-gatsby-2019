@@ -25,7 +25,20 @@ const Contact = () => {
           </span>{" "}
           my email address.
         </p>
-        <textarea rows={8} className={styles.textbox} name="content" />
+
+        <input
+          className={styles.textbox}
+          type="email"
+          placeholder="Your email"
+          required
+        />
+        <textarea
+          rows={8}
+          className={styles.textbox}
+          name="content"
+          placeholder="Your message"
+          required
+        />
         <input className={styles.btn_submit} type="submit" value="Send" />
       </form>
     </section>
