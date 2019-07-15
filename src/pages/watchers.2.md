@@ -1,11 +1,11 @@
 ---
 type: "project"
-title: "Watchers"
-description: "A movie application which display movies and series available online daily "
-imagePath: "watchers.png"
+title: "Nikki"
+order: 2
+description: "A daily diary note in Japanese that allow the user to save words and grammars points, review them as well as translate them"
+imagePath: "nikki.png"
 background: "#F1EFF6"
-frontend: "Typescript, NestJS"
-backend: "Typescript, NestJS"
+frontend: "Angular, Typescript, Material"
+backend: "NodeJS, Typescript, NestJS"
+link: null
 ---
-
-Movie application shows all movies available online

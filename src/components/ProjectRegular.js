@@ -3,7 +3,7 @@ import Image from "../components/image"
 import { graphql, StaticQuery } from "gatsby"
 import styles from "./projects.module.css"
 import Section from "./section"
-import { MdCode, MdEqualizer } from "react-icons/md"
+import { MdCode, MdEqualizer, MdTimeline } from "react-icons/md"
 
 const ProjectRegular = ({ data, index }) => (
   <div
@@ -36,9 +36,11 @@ const ProjectRegular = ({ data, index }) => (
             </div>
             <div>
               <MdEqualizer className={styles.project_tech_icon} />
-              <small className={styles.project_tech_name}>
-                {data.frontend}
-              </small>
+              <small className={styles.project_tech_name}>{data.backend}</small>
+            </div>
+            <div>
+              <MdTimeline className={styles.project_tech_icon} />
+              <small className={styles.project_tech_name}>In Progress</small>
             </div>
           </div>
         </div>

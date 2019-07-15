@@ -1,11 +1,11 @@
 ---
 type: "project"
-title: "Watchers"
-description: "A movie application which display movies and series available online daily "
-imagePath: "watchers.png"
+title: "SkillMap"
+order: 4
+description: "An application to manage the programming skills you wish to learn"
+imagePath: "skillmap.png"
 background: "#E2F1F8"
-frontend: "Typescript, NestJS"
-backend: "Typescript, NestJS"
+frontend: "Typescript, ReactJS, React Hooks"
+backend: "Django, Python, MySQL"
+link: null
 ---
-
-Movie application shows all movies available online
