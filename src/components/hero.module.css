@@ -66,7 +66,7 @@
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    height: calc(100% - 56px);
+    height: calc(100vh - 56px);
   }
   .description {
     font-size: 22px;
@@ -90,8 +90,17 @@
     margin-bottom: 2rem;
   }
 }
+
 @media only screen and (min-width: 480px) and (orientation: landscape) {
   .container {
     margin: 5rem auto;
+    height: calc(100% - 56px);
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  .container {
+    margin: 5rem auto;
+    height: calc(100vh - 56px);
   }
 }
