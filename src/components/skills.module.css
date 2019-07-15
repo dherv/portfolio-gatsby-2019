@@ -1,7 +1,7 @@
 .container {
   max-width: 1030px;
   margin: 0 auto;
-  padding-top: 5rem;
+  padding: 5rem 1.5rem;
 }
 .subtitle {
   font-family: "Open Sans", sans-serif;
@@ -16,16 +16,15 @@
   display: flex;
   /* grid-template-columns: repeat(3, 1fr); */
   /* grid-auto-rows: minmax(min-content, max-content); */
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  max-height: 1000px;
   margin-top: 4rem;
   font-weight: 300;
   font-size: 1rem;
   /* align-items: center; */
 }
 .skill_container {
-  width: 33%;
+  width: 50%;
   margin-bottom: 2rem;
 }
 .skill_header {
@@ -37,4 +36,23 @@
 }
 .skill_title {
   margin-left: 1rem;
+}
+@media only screen and (max-width: 1190px) {
+  .grid {
+    max-height: inherit;
+  }
+}
+
+@media only screen and (min-width: 1130px) {
+  .grid {
+    max-height: 1000px;
+    flex-direction: column;
+  }
+  .container {
+    padding: 0;
+    padding-top: 5rem;
+  }
+  .skill_container {
+    width: 33%;
+  }
 }
