@@ -66,7 +66,7 @@
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    height: calc(100vh - 56px);
+    height: calc(100% - 56px);
   }
   .description {
     font-size: 22px;
@@ -88,5 +88,10 @@
   }
   .icon_container {
     margin-bottom: 2rem;
+  }
+}
+@media only screen and (min-width: 480px) and (orientation: landscape) {
+  .container {
+    margin: 5rem auto;
   }
 }
