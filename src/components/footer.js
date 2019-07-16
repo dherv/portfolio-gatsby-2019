@@ -9,23 +9,39 @@ import {
 
 export default () => (
   <footer className={styles.footer}>
-    <FontAwesomeIcon
-      className={styles.icon}
-      icon={faGithub}
-      size="2x"
-      color="#bbbbbb"
-    />
-    <FontAwesomeIcon
-      className={styles.icon}
-      icon={faLinkedin}
-      size="2x"
-      color="#bbbbbb"
-    />
-    <FontAwesomeIcon
-      className={styles.icon}
-      icon={faDocker}
-      size="2x"
-      color="#bbbbbb"
-    />
+    <ul>
+      <li className={styles.item}>
+        <a href="https://github.com/dherv" target="blank">
+          <FontAwesomeIcon
+            className={styles.icon}
+            icon={faGithub}
+            size="2x"
+            color="#bbbbbb"
+          />
+        </a>
+      </li>
+
+      <li className={styles.item}>
+        <a href="https://www.linkedin.com/in/damien-hervieux/" target="blank">
+          <FontAwesomeIcon
+            className={styles.icon}
+            icon={faLinkedin}
+            size="2x"
+            color="#bbbbbb"
+          />
+        </a>
+      </li>
+
+      <li className={styles.item}>
+        <a href="https://hub.docker.com/u/dherv" target="blank">
+          <FontAwesomeIcon
+            className={styles.icon}
+            icon={faDocker}
+            size="2x"
+            color="#bbbbbb"
+          />
+        </a>
+      </li>
+    </ul>
   </footer>
 )
