@@ -2,12 +2,13 @@
   display: flex;
   align-items: center;
   max-width: 1200px;
-  margin: 0 auto;
-  height: calc(100vh - 56px);
+  margin: 5rem auto 0;
+  height: calc(100% - 56px);
 }
 .wrapper {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   width: 100%;
 }
 .text_container {
@@ -17,18 +18,26 @@
 
 .description {
   font-weight: 300;
-  font-size: 22px;
+  font-size: 16px;
   font-family: var(--text-primary);
   color: #212121;
 }
 .icon {
   display: block;
   /* margin-bottom: 2rem; */
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #718792;
+  text-align: center;
+}
+.icon_list {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 4rem 0;
 }
 .icon_container {
-  margin-bottom: 2rem;
+  padding: 0 1.5rem;
+  /* padding: 0 1rem; */
   /* display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1rem; */
@@ -37,7 +46,7 @@
 }
 .icon_xp {
   font-family: "Roboto", sans-serif;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: bold;
   color: #767676;
   line-height: 1;
@@ -49,4 +58,49 @@
 .icon_xp_ym {
   composes: icon_xp_point;
   font-size: 12px;
+}
+
+@media only screen and (min-width: 480px) {
+  .container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: calc(100vh - 56px);
+  }
+  .description {
+    font-size: 22px;
+  }
+  .wrapper {
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .icon_list {
+    display: block;
+    padding: 0 1.5rem;
+    width: initial;
+    margin-top: 0;
+  }
+  .icon {
+    font-size: 2.5rem;
+  }
+  .icon_container {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (min-width: 480px) and (orientation: landscape) {
+  .container {
+    margin: 5rem auto;
+    height: calc(100% - 56px);
+  }
+}
+
+@media only screen and (min-width: 813px) {
+  .container {
+    margin: 0 auto;
+    height: calc(100vh - 56px);
+  }
 }

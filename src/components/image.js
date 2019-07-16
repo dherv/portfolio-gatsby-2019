@@ -20,7 +20,7 @@ const Image = ({ src, imgStyle, style }) => (
         allImageSharp {
           edges {
             node {
-              fluid(maxWidth: 350) {
+              fluid(quality: 90) {
                 ...GatsbyImageSharpFluid
                 originalName
               }

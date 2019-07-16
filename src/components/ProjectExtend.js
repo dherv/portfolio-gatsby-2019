@@ -5,17 +5,19 @@ import styles from "./projects.module.css"
 import Section from "./section"
 import { MdCode, MdEqualizer, MdTimeline } from "react-icons/md"
 
-const ProjectExtended = ({ data }) => (
+const ProjectExtended = ({ data, className }) => (
   <div
     style={{
       backgroundColor: data.background,
     }}
-    className={`${styles.article_container_extend} ${styles.article_container}`}
+    className={`${styles.article_container_extend} ${
+      styles.article_container
+    } ${className}`}
   >
-    <a href={data.link} style={{ cursor: "pointer" }}>
+    <a href={data.link} style={{ cursor: data.link ? "pointer" : "" }}>
       <article className={`${styles.article_extend} ${styles.article}`}>
         <Image
-          style={{ flex: "1 0 auto", maxWidth: 350 }}
+          style={{ flex: "1 0 auto", maxWidth: "100%" }}
           imgStyle={{ borderRadius: 4 }}
           src={data.imagePath}
         />

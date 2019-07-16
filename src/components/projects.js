@@ -25,6 +25,7 @@ const Projects = () => (
                 frontend
                 backend
                 link
+                deployed
               }
               html
             }
@@ -40,12 +41,23 @@ const Projects = () => (
               return a.node.frontmatter.order - b.node.frontmatter.order
             })
             .map(
-              ({ node }, index) =>
-                index === 0 || index % 3 === 0 ? (
-                  <ProjectExtended data={node.frontmatter} />
-                ) : (
-                  <ProjectRegular data={node.frontmatter} index={index} />
-                )
+              ({ node }, index) => (
+                // index === 0 || index % 3 === 0 ? (
+                //   <>
+                //     <ProjectExtended
+                //       className={styles.extend}
+                //       data={node.frontmatter}
+                //     />
+                //     <ProjectRegular
+                //       className={styles.regular}
+                //       data={node.frontmatter}
+                //       index={index}
+                //     />
+                //   </>
+                // ) : (
+                <ProjectRegular data={node.frontmatter} index={index} />
+              )
+              // )
               // <div
               //   style={{
               //     backgroundColor: node.frontmatter.background,
