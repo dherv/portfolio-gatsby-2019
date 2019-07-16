@@ -17,7 +17,7 @@ const ProjectRegular = ({ data, index, className }) => (
       <article className={styles.article_wrapper}>
         <div className={`${styles.article_regular} ${styles.article}`}>
           <Image
-            style={{ flex: "1 1 auto", maxWidth: 600 }}
+            style={{ flex: "1 1 auto", maxWidth: 450 }}
             imgStyle={{ borderRadius: 4 }}
             src={data.imagePath}
           />

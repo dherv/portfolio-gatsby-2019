@@ -98,9 +98,9 @@
   }
 }
 
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 813px) {
   .container {
-    margin: 5rem auto;
+    margin: 0 auto;
     height: calc(100vh - 56px);
   }
 }
