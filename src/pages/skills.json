@@ -6,12 +6,12 @@
       "Typescript",
       "React",
       "Javascript",
+      "NextJS",
       "Vue",
       "Angular",
       "HTML",
       "CSS",
-      "GatsbyJS",
-      "NextJS"
+      "GatsbyJS"
     ]
   },
   {
@@ -24,14 +24,14 @@
     "icon": "MdEqualizer",
     "skills": [
       "Django",
-      "NodeJS",
       "NestJS",
       "Laravel",
+      "NodeJS",
+      "Fastify",
       "Python",
       "MySQL",
       "ElasticSearch",
-      "Redis",
-      "Fastify"
+      "Redis"
     ]
   },
   {
