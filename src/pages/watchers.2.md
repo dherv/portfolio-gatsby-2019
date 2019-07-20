@@ -7,6 +7,6 @@ imagePath: "nikki.png"
 background: "#F1EFF6"
 frontend: "Angular, Typescript, Material"
 backend: "NodeJS, Typescript, NestJS"
-link: null
+link: "https://github.com/dherv/nikki-nest/tree/develop"
 deployed: "Not deployed yet"
 ---

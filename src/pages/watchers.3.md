@@ -7,6 +7,6 @@ imagePath: "canard.png"
 background: "#FFF3E0"
 frontend: "Typescript, React, NextJS, Jest"
 backend: "Typescript, NodeJS, Fastify"
-link: null
+link: "https://github.com/IPreferWater/canard-fastify/tree/develop"
 deployed: "Not deployed yet"
 ---

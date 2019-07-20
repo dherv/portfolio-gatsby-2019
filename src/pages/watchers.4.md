@@ -7,6 +7,6 @@ imagePath: "skillmap.png"
 background: "#E2F1F8"
 frontend: "Typescript, React, Jest"
 backend: "Django, Python, MySQL"
-link: null
+link: "https://github.com/dherv/skillmap-django/tree/develop"
 deployed: "Not deployed yet"
 ---

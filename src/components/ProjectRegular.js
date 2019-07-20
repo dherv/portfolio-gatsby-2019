@@ -13,7 +13,11 @@ const ProjectRegular = ({ data, index, className }) => (
     }}
     className={` ${styles.article_container_regular} ${className}`}
   >
-    <a href={data.link} style={{ cursor: data.link ? "pointer" : "" }}>
+    <a
+      href={data.link}
+      target="blank"
+      style={{ cursor: data.link ? "pointer" : "" }}
+    >
       <article className={styles.article_wrapper}>
         <div className={`${styles.article_regular} ${styles.article}`}>
           <Image
